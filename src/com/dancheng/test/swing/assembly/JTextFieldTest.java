@@ -21,7 +21,7 @@ import java.awt.Font;
  * void setScrollOffset(int scrollOffset)	设置文本框的滚动偏移量（以像素为单位）
  * void setHorizontalAlignment(int alignment)	设置文本框内容的水平对齐方式
  */
-public class JRextFieldTest {
+public class JTextFieldTest {
 
     public static void main(String[] args) {
         JFrame frame = new JFrame("Java文本框组件示例");    //创建Frame窗口
