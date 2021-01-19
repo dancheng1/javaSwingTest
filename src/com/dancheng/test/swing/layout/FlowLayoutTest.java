@@ -1,10 +1,9 @@
 package com.dancheng.test.swing.layout;
 
-import com.intellij.ui.JBColor;
-
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
+import java.awt.Color;
 import java.awt.FlowLayout;
 
 /**
@@ -46,7 +45,7 @@ public class FlowLayoutTest {
         // 向JPanel添加FlowLayout布局管理器，将组件间的横向和纵向间隙都设置为20像素
         jPanel.setLayout(new FlowLayout(FlowLayout.LEADING,20,20));
         // 设置背景色
-        jPanel.setBackground(JBColor.GRAY);
+        jPanel.setBackground(Color.GRAY);
         // 添加面板到容器
         jFrame.add(jPanel);
         // 设置容器的大小

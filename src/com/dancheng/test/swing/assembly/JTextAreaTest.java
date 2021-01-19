@@ -1,11 +1,10 @@
 package com.dancheng.test.swing.assembly;
 
-import com.intellij.ui.JBColor;
-
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
+import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Font;
 
@@ -36,9 +35,9 @@ public class JTextAreaTest {
 
         JTextArea jta = new JTextArea("请输入内容", 7, 30);
         jta.setLineWrap(true);    //设置文本域中的文本为自动换行
-        jta.setForeground(JBColor.BLACK);    //设置组件的背景色
+        jta.setForeground(Color.BLACK);    //设置组件的背景色
         jta.setFont(new Font("楷体", Font.BOLD, 16));    //修改字体样式
-        jta.setBackground(JBColor.YELLOW);    //设置按钮背景色
+        jta.setBackground(Color.YELLOW);    //设置按钮背景色
 
 
         JScrollPane jsp = new JScrollPane(jta);    //将文本域放入滚动窗口
@@ -48,7 +47,7 @@ public class JTextAreaTest {
 
         jp.add(jsp);    //将JScrollPane添加到JPanel容器中
         frame.add(jp);    //将JPanel容器添加到JFrame容器中
-        frame.setBackground(JBColor.LIGHT_GRAY);
+        frame.setBackground(Color.LIGHT_GRAY);
         frame.setSize(800, 200);    //设置JFrame容器的大小
         frame.setVisible(true);
     }

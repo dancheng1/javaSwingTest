@@ -1,11 +1,10 @@
 package com.dancheng.test.swing.assembly;
 
-import com.intellij.ui.JBColor;
-
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.SwingConstants;
+import java.awt.Color;
 import java.awt.Dimension;
 
 /**
@@ -50,7 +49,7 @@ public class JButtonTest {
         jp.add(btn1);
 
 
-        btn2.setBackground(JBColor.YELLOW);    //设置按钮背景色
+        btn2.setBackground(Color.YELLOW);    //设置按钮背景色
         jp.add(btn2);
 
 
